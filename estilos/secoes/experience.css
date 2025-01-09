@@ -1,0 +1,93 @@
+.experiencia__descricao {    
+    margin-top: 4rem;
+    a {
+        margin-left: .5rem;
+    }
+    &>h2 {
+        margin-left: .5rem;
+    }
+    p {
+        text-align: justify;
+        margin: 2rem .5rem 1rem;        
+    }    
+}
+.experiencias__usuarios {    
+    justify-content: space-around;            
+    margin-top: 4.55rem .5rem;
+    figure {        
+        position: relative;
+        display: inline-block;        
+        padding: .5rem;
+        & img {                
+            height: 100%;
+            width: 100%;            
+        }
+        & svg {                
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            pointer-events: none;
+            & path {
+                stroke: var(--borda-img);
+            }
+        }        
+        &:nth-child(2) {
+            top: 3.125rem;
+        }
+        &:nth-child(3) {
+            top: 6.25rem;
+        }
+    }
+}
+.container__subtitulo {
+    margin-top: 6.21rem;      
+    background: url('../../imgs/subtitulo/background.svg');
+    background-repeat: no-repeat;
+    background-size: cover;             
+    padding: .8rem;    
+    align-items: center;  
+    justify-content: space-evenly;  
+    width: 80%;        
+    column-gap: .4rem;
+    h2 {                
+        font: var(--heading-sm);            
+    }
+    img {             
+        width: 2.71113rem;
+        height: 2.1875rem;
+    }
+}
+.criar__nome {    
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: .67rem;
+    margin-top: 2.81rem;    
+    figure {
+        position: relative;
+        img {
+            border-radius: .5rem;
+            width: 14.2965rem;            
+        }
+        figcaption {
+            padding: .69rem .66rem;
+            border-radius: 0 .5rem 0 .5rem;
+            position: absolute;
+            left: 0;
+            bottom: 0.1875rem;
+            width: 10.3rem;
+            height: auto;
+            background: rgba(255, 255, 255, 0.18);
+            backdrop-filter: blur(11.348857879638672px);
+            h3 {
+                color: var(--branco-100);
+                font: var(--heading-sm);
+                border-bottom: 0.0625rem solid var(--branco-100);
+                display: inline-block; 
+                margin-bottom: .35rem;
+            }            
+        }                          
+    }
+}

@@ -1,0 +1,118 @@
+.avaliacoes__bg {
+    border-radius: 0.45938rem;
+    border: 1.069px solid var(--borda-avaliacoes);
+    background: var(--bg-avaliacoes);
+    height: 190px;
+    margin-top: 3.66rem;    
+    & h2 {
+        text-align: center;        
+        padding-block: 1.69rem 1.13rem;
+    }
+    & > p {
+        text-align: center;
+        padding-inline: 1.5rem;          
+    }
+}
+.container {
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+}
+.scroll-btn {
+    position: absolute;
+    top: 80%;
+    transform: translateY(-50%);
+    background-color: var(--borda-avaliacoes);
+    color: var(--branco-100);
+    font-weight: 800;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    z-index: 10;
+}
+.scroll-btn.left {
+    left: 10px;
+}
+.scroll-btn.right {
+    right: 10px;
+}
+.container__cards {
+    justify-content: start;    
+    gap: .3rem;        
+    overflow: auto;
+    scroll-behavior: smooth;
+    max-width: 100%;
+    -webkit-overflow-scrolling: touch;
+    &::-webkit-scrollbar {
+        height: 8px;
+    }
+    &::-webkit-scrollbar-thumb:hover {
+        background: var(--cor-perfil-card);
+    }
+}
+.card {    
+    width: 180px;    
+    margin-top: .5rem;
+    flex: 0 0 auto;    
+    border-radius: 0.432rem;
+    border: 0.762px solid var(--borda-avaliacoes);
+    background: var(--bg-card);
+    backdrop-filter: blur(5.7174482345581055px);            
+    padding: .5rem;
+    ul {
+        li {
+            img {
+                width: 12px;
+                height: 12px;
+            }
+        }
+    }
+    & > p {
+        color: var(--branco-100);        
+        text-align: justify;
+    }
+    figure {
+        align-items: center;
+        justify-content: start;
+        gap: .2rem;
+        margin-top: 6.59px;                            
+        img {
+            width: 1.8rem;
+            height: 1.8rem;        
+        }
+        figcaption {                      
+            & p:nth-child(2) {
+                color: var(--cor-perfil-card);   
+            }
+        }
+    }
+}
+.sobre__empresa {
+    margin-top: 4.9rem;        
+    h2, p {
+        text-align: center;
+    }    
+    p {
+        padding-inline: .5rem;
+    }
+    ul {
+        justify-content: center;
+        gap: 1rem;
+        margin-top: 1rem;
+        li {
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+            img {
+                width: 40px;
+                height: auto;
+            }
+            p {
+                font-weight: 800;
+                margin-top: .2rem;
+            }
+        }
+    }
+}

@@ -1,0 +1,66 @@
+/* Tablet */
+@media screen and (min-width: 768px) and (max-width: 884px) {            
+    header {            
+        & > p {
+           margin: 1rem 2.5rem;                  
+        }
+    }
+    .container__acessos {
+        margin-left: 2.5rem;
+    }
+    .experiencia__descricao {
+        margin-inline: 2rem;
+    }
+    .container__subtitulo {                         
+        justify-content: start;        
+        width: 40%;           
+        column-gap: 1.5rem;             
+    }
+    .criar__nome {
+        display: grid;        
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);        
+        justify-items: center;
+        margin-inline: 11rem;
+    }
+    .avaliacoes__bg {     
+        & > p {
+            text-align: center;
+            padding-inline: 2.5rem;          
+        }
+    }
+    .container__cards {
+        justify-content: center;            
+    }    
+}
+/* Desktop */
+@media screen and (min-width: 1280px) {
+    header {            
+        & > p {
+           margin: 1rem 3.5rem;                  
+        }
+    }
+    .container__acessos {
+        margin-left: 3.5rem;
+    }
+    .experiencia__descricao {
+        margin-inline: 3.5rem;
+    }
+    .container__subtitulo {                         
+        justify-content: start;        
+        width: 25%;           
+        column-gap: 1.5rem;             
+    }        
+    .container__cards {
+        justify-content: center; 
+        gap: 1.5rem;           
+    } 
+    .container__email {
+        justify-content: space-around;
+    }
+    form {
+        input {
+            width: 50%;
+        }
+    }
+}

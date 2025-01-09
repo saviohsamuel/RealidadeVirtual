@@ -1,0 +1,46 @@
+:root {
+    --cor-background: #010101;
+    --cor-botao: linear-gradient(100deg, #B936F5 -21.45%, #C64C85 100%, #F1005B 100%);    
+    --cor-botao-hover: linear-gradient(100deg, #F1005B -21.45%, #C64C85 100%, #B936F5 100%);    
+    --branco-100: #ffffff;
+    --branco-85: #ffffffd9;
+    --borda-img: #EBA9FF;
+    --bg-avaliacoes: linear-gradient(180deg, #AA14F0 -42.59%, #00000000 -42.59%, #AA14F0 -42.58%, #aa14f02e 4.35%, #973c440d 99.99%, #b936f500 100%);
+    --bg-card: linear-gradient(180deg, #AA14F0 -42.59%, #00000000 -42.59%, #CB8DE8 -42.58%, #cb8fe82e 4.35%, #973c440d 99.99%, #c789e400 100%);
+    --borda-avaliacoes: #b936f540; 
+    --cor-perfil-card: #EB4468;
+
+    --fonte-principal: 'Orbitron', sans-serif;
+    --fonte-secundaria: 'Inter', sans-serif;
+
+    --heading-sm: 800 0.875rem var(--fonte-principal);
+    --heading-md: 800 1.125rem var(--fonte-principal);
+    --heading-xl: 800 1.25rem var(--fonte-principal);
+
+    --texto-sm: 0.34556rem var(--fonte-secundaria);
+    --texto-md: 0.456rem var(--fonte-secundaria);
+    --texto-xl: 0.75rem var(--fonte-secundaria);
+}
+body {    
+    background: var(--cor-background);    
+    h2 {
+        font: var(--heading-xl);
+        color: var(--branco-100);
+    }    
+    p {
+        font: var(--texto-xl);    
+        color: var(--branco-85);        
+    }
+}
+body a {
+    font: var(--texto-xl);    
+    text-decoration: none;
+    color: var(--branco-100);
+    background: var(--cor-botao);
+    border-radius: 0.6085rem;
+    font-weight: 800;  
+    padding: .5rem;
+}
+a:hover {
+    background: var(--cor-botao-hover);    
+}

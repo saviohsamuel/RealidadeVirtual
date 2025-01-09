@@ -1,0 +1,64 @@
+#rodape {
+    margin-top: 2.89rem;
+    background: var(--bg-avaliacoes);
+    align-items: center;  
+    justify-content: space-between;          
+}
+.container__email {
+    padding: 1rem .5rem 3rem;    
+    p {
+        margin-block: .74rem .81rem;
+    }
+}
+form {
+    column-gap: .5rem;
+    input {
+        padding: .5rem;
+        border-radius: .8rem;
+        border: 0.811px solid rgba(185, 54, 245, 0.25);
+        background: linear-gradient(180deg, #AA14F0 -42.59%, rgba(0, 0, 0, 0.00) -42.59%, #CB8DE8 -42.58%, rgba(203, 143, 232, 0.18) 4.35%, rgba(151, 60, 68, 0.05) 99.99%, rgba(199, 137, 228, 0.00) 100%);
+        box-shadow: 0px -9.728px 16.213px 0px rgba(255, 255, 255, 0.03) inset;
+        backdrop-filter: blur(6.079744815826416px);        
+        border: none;
+        outline: none;
+        color: var(--branco-100);
+        &::placeholder {
+            color: #e0a3c98f;
+        }
+        &:focus {
+            border: .5px solid var(--branco-85);
+            outline: .5px solid var(--borda-img);
+        }
+    }
+    button {
+        color: rgba(224, 163, 201, 0.56);
+        border-radius: .8rem;
+        background: var(--cor-botao);
+        outline: none;
+        border: none;
+        padding: .5rem;
+        align-items: center;
+        justify-content: center;
+        color: var(--branco-100);
+        gap: .2rem;        
+        img {
+            height: 8px;
+            width: 8px;            
+        }
+        &:hover {  
+            background: var(--cor-botao-hover);              
+            & img {
+                transform: rotate(54deg);
+                transition: .2s ease-in-out;
+            }
+        }
+    }
+}
+.maos {
+    background-image: url('../../imgs/footer/maos.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    height: 180px;
+    width: 200px;
+}

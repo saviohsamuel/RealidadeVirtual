@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Realidade virtual</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+    </head>
+    <body>        
+        <header id="header">            
+            <div class="container__apresentacao flex">
+                <h2>Vamos <br> explorar o <br> mundo virtual</h2>
+                <div class="apresentacao flex">
+                    <svg width="200" height="257" viewBox="0 0 200 257" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M163.35 17.5155C164.283 17.4725 165.072 17.1138 165.718 16.4395C166.363 15.7652 166.693 14.9618 166.693 14.0293C166.693 14.9618 167.009 15.7652 167.654 16.4395C168.3 17.1138 169.089 17.4725 170.022 17.5155C169.089 17.5586 168.3 17.9172 167.654 18.5915C167.342 18.9094 167.096 19.2862 166.931 19.7C166.766 20.1138 166.685 20.5563 166.693 21.0018C166.693 20.0692 166.377 19.2658 165.718 18.5915C165.072 17.9172 164.283 17.5586 163.35 17.5155ZM166.693 7.18598C168.501 7.0999 170.036 6.39691 171.298 5.07703C172.561 3.75714 173.192 2.19336 173.192 0.371338C173.192 2.19336 173.823 3.75714 175.086 5.07703C176.348 6.39691 177.883 7.08555 179.705 7.18598C178.515 7.24336 177.424 7.57333 176.42 8.20459C175.43 8.82149 174.641 9.65359 174.053 10.6865C173.479 11.7195 173.192 12.8242 173.192 14.0293C173.192 12.2073 172.561 10.6292 171.298 9.30927C170.036 7.97504 168.501 7.27206 166.693 7.18598ZM171.456 22.6373C172.819 22.5799 173.981 22.0491 174.928 21.0591C175.875 20.0692 176.348 18.8928 176.348 17.5155C176.348 18.8928 176.822 20.0692 177.769 21.0591C178.716 22.0491 179.863 22.5799 181.226 22.6373C179.863 22.6947 178.716 23.2255 177.769 24.2154C176.822 25.2053 176.348 26.3817 176.348 27.759C176.348 26.3817 175.875 25.2053 174.928 24.2154C174.023 23.2536 172.776 22.6867 171.456 22.6373ZM181.226 15.837C182.589 15.7796 183.737 15.2488 184.684 14.2589C185.631 13.2689 186.09 12.0925 186.09 10.7009C186.09 12.0782 186.563 13.2546 187.51 14.2445C188.457 15.2344 189.619 15.7652 190.982 15.8226C189.619 15.88 188.457 16.4108 187.51 17.4008C186.563 18.3907 186.09 19.5671 186.09 20.9444C186.09 19.5671 185.616 18.3907 184.684 17.4008C183.737 16.4252 182.589 15.8944 181.226 15.837Z" fill="white"/>
+                        <g filter="url(#filter0_b_0_1)">
+                            <path d="M17.6194 83.3308H149.665C167.434 83.3308 181.839 97.7356 181.839 115.505V173.944C181.839 219.292 145.077 256.054 99.7293 256.054V256.054C54.3813 256.054 17.6194 219.292 17.6194 173.944V83.3308Z" fill="#534686"/>
+                        </g>
+                        <g filter="url(#filter1_i_0_1)">
+                            <ellipse cx="99.769" cy="86.9398" rx="83.9794" ry="40.144" transform="rotate(14 99.769 86.9398)" fill="#C53050"/>
+                        </g>
+                        <path d="M89.9235 126.428C112.487 132.054 134.03 132.783 150.631 129.391C167.188 126.007 179.028 118.472 181.791 107.39C184.554 96.3084 177.637 84.0964 164.607 73.3364C151.542 62.5477 132.178 53.0773 109.615 47.4517C87.0511 41.826 65.5077 41.097 48.907 44.4891C32.3504 47.8723 20.5104 55.4079 17.7475 66.4896C14.9845 77.5713 21.9008 89.7833 34.9311 100.543C47.9961 111.332 67.3601 120.802 89.9235 126.428Z" stroke="#EB4468" stroke-width="1.10622"/>
+                        <g filter="url(#filter2_d_0_1)">
+                            <path d="M196.1 99.0643C192.006 113.339 177.643 123.333 157.48 127.835C137.342 132.333 111.555 131.31 84.9084 123.669C58.2613 116.028 35.8515 103.231 21.1559 88.7449C6.44336 74.2421 -0.441776 58.1552 3.65136 43.8807C7.7445 29.6062 22.1082 19.6123 42.2705 15.1097C62.4094 10.6122 88.1956 11.6351 114.843 19.276C141.49 26.9169 163.899 39.7141 178.595 54.2001C193.308 68.7029 200.193 84.7898 196.1 99.0643Z" stroke="url(#paint0_linear_0_1)" stroke-opacity="0.8" stroke-width="1.10622" shape-rendering="crispEdges"/>
+                        </g>
+                        <defs>
+                            <filter id="filter0_b_0_1" x="-30.8104" y="34.901" width="261.079" height="269.583" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                                <feGaussianBlur in="BackgroundImageFix" stdDeviation="24.2149"/>
+                                <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_0_1"/>
+                                <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_0_1" result="shape"/>
+                            </filter>
+                            <filter id="filter1_i_0_1" x="16.5908" y="41.8931" width="166.356" height="105.686" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                                <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+                                <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                                <feOffset dy="15.5924"/>
+                                <feGaussianBlur stdDeviation="15.5924"/>
+                                <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+                                <feColorMatrix type="matrix" values="0 0 0 0 0.670833 0 0 0 0 0.20125 0 0 0 0 0.302478 0 0 0 1 0"/>
+                                <feBlend mode="normal" in2="shape" result="effect1_innerShadow_0_1"/>
+                            </filter>
+                            <filter id="filter2_d_0_1" x="0.0144691" y="11.8784" width="199.722" height="123.022" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                                <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                                <feOffset dy="1.91693"/>
+                                <feGaussianBlur stdDeviation="0.958464"/>
+                                <feComposite in2="hardAlpha" operator="out"/>
+                                <feColorMatrix type="matrix" values="0 0 0 0 0.844886 0 0 0 0 0.5125 0 0 0 0 1 0 0 0 1 0"/>
+                                <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_0_1"/>
+                                <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_0_1" result="shape"/>
+                            </filter>
+                            <linearGradient id="paint0_linear_0_1" x1="10.851" y1="31.9722" x2="195.241" y2="105.904" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#EBA9FF"/>
+                                <stop offset="1" stop-color="#FFB0FA"/>
+                            </linearGradient>
+                        </defs>
+                    </svg>                                                        
+                    <figure>                            
+                        <img src="imgs/header/usuario-oculos.png" alt="Usuário com óculos virtual">
+                        <figcaption class="flex">
+                            <h3>Realidade virtual <br> Cinematográfica</h3>
+                            <hr>
+                            <p>Pronto para explorar o mundo ilimitado que preparamos para você?</p>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>            
+            <p>Com a tecnologia virtual, você pode ver o mundo digital parecer mais real e jogar com um novo estilo.</p>
+            <div class="container__acessos flex">
+                <a href="#">Acessar</a>                           
+                <div class="usuarios__imgs flex">
+                    <img src="imgs/header/usuario01.png" alt="Foto de perfil de usuário online">
+                    <img src="imgs/header/usuario02.png" alt="Foto de perfil de usuário online">
+                    <img src="imgs/header/usuario03.png" alt="Foto de perfil de usuário online">
+                    <img src="imgs/header/usuario04.png" alt="Foto de perfil de usuário online">
+                </div>                
+                <p>+ 400k online</p>                    
+            </div>                        
+        </header>        
+        <section id="experiencia">
+            <div class="experiencias__usuarios flex">                                          
+                <figure>
+                    <svg width="110" height="172" viewBox="0 0 110 172" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0.553109 171.084V0.905648H91.8755L109.447 19.499V171.084H0.553109Z" stroke="url(#paint0_linear_2307_31)" stroke-opacity="0.8" stroke-width="1.10622"/>
+                        <defs>
+                            <linearGradient id="paint0_linear_2307_31" x1="2.29028" y1="65.024" x2="111.27" y2="68.9308" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#EBA9FF"/>
+                            <stop offset="1" stop-color="#FFB0FA"/>
+                            </linearGradient>
+                        </defs>
+                    </svg>                            
+                    <img src="imgs/experiencias/experience01.png" alt="Foto de usuário">
+                </figure>
+                <figure>
+                    <svg width="110" height="172" viewBox="0 0 110 172" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0.553109 171.084V0.905648H91.8755L109.447 19.499V171.084H0.553109Z" stroke="url(#paint0_linear_2307_31)" stroke-opacity="0.8" stroke-width="1.10622"/>
+                        <defs>
+                            <linearGradient id="paint0_linear_2307_31" x1="2.29028" y1="65.024" x2="111.27" y2="68.9308" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#EBA9FF"/>
+                                <stop offset="1" stop-color="#FFB0FA"/>
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                    <img src="imgs/experiencias/experience01.png" alt="Foto de usuário">
+                </figure>
+                <figure>
+                    <svg width="110" height="172" viewBox="0 0 110 172" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0.553109 171.084V0.905648H91.8755L109.447 19.499V171.084H0.553109Z" stroke="url(#paint0_linear_2307_31)" stroke-opacity="0.8" stroke-width="1.10622"/>
+                        <defs>
+                            <linearGradient id="paint0_linear_2307_31" x1="2.29028" y1="65.024" x2="111.27" y2="68.9308" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#EBA9FF"/>
+                                <stop offset="1" stop-color="#FFB0FA"/>
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                    <img src="imgs/experiencias/experience01.png" alt="Foto de usuário">
+                </figure>
+            </div>
+            <div class="experiencia__descricao">
+                <h2>Nova experiência <br>em jogar</h2>
+                <p>Você pode tentar jogar com um novo estilo e, claro, com uma sensação mais real, como se você fosse o personagem principal do seu jogo e aventura neste novo mundo digital.</p>                    
+                <a href="#">Acessar</a>
+            </div>                
+            <div class="container__subtitulo flex">                                                                
+                <h2>Experiências incríveis com o <br> mundo de realidade virtual</h2>
+                <img src="imgs/subtitulo/icone-subtitulo.png" alt="Icone ilustrativo subtitulo">                    
+            </div>
+            <div class="criar__nome flex">
+                <figure>
+                    <img src="imgs/experiencias/imagem01.png" alt="Foto ilustrativa de um homem usando óculos de realidade virtual">
+                    <figcaption>
+                        <h3>Metaverso</h3>
+                        <p>A Network of 3D virtual worlds focused on social connection.</p>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="imgs/experiencias/imagem02.png" alt="Foto ilustrativa de uma mulher usando óculos de realidade virtual">
+                    <figcaption>
+                        <h3>HoloLens</h3>
+                        <p>HoloLens display information, blend with the real worl even.</p>
+                    </figcaption>                    
+                </figure>
+                <figure>
+                    <img src="imgs/experiencias/imagem03.png" alt="Foto ilustrativa de um homem usando óculos de realidade virtual">
+                    <figcaption>
+                        <h3>TpCastt</h3>
+                        <p>Method is great to start students reading and inferring.</p>                                    
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="imgs/experiencias/imagem04.png" alt="Foto ilustrativa de um homem usando óculos de realidade virtual">
+                    <figcaption>
+                        <h3>AIot</h3>
+                        <p>AI and IoT are both emerging innovative technologies wit.</p>                                    
+                    </figcaption>
+                </figure>
+            </div>
+        </section>
+        <section id="avaliacoes">
+            <div class="avaliacoes__bg">
+                <h2>O que nossos clientes dizem</h2>
+                <p>Veja o que nossos clientes dizem sobre nós. Isso realmente importa para nós. Quão bom ou ruim faremos para avaliação para tornar o EhyalLive melhor.</p>
+                <div class="container">
+                    <button class="scroll-btn left">&lt;</button>
+                    <div class="container__cards flex">                
+                        <div class="card">
+                            <ul class="flex">
+                                <li><img src="imgs/avaliacoes/estrela.svg" alt="Estrela de avaliação"></li>
+                                <li><img src="imgs/avaliacoes/estrela.svg" alt="Estrela de avaliação"></li>
+                                <li><img src="imgs/avaliacoes/estrela.svg" alt="Estrela de avaliação"></li>
+                                <li><img src="imgs/avaliacoes/estrela.svg" alt="Estrela de avaliação"></li>
+                                <li><img src="imgs/avaliacoes/estrela.svg" alt="Estrela de avaliação"></li>
+                            </ul>
+                            <p>"Os óculos de realidade virtual são incríveis! A imersão é tão realista que parece estar em outro mundo. Recomendo!"</p>
+                            <figure class="flex">
+                                <img src="imgs/header/usuario01.png" alt="Foto de perfil de usuário que avaliou a experiência com óculos virtuais">
+                                <figcaption>
+                                    <p>Denny Hilguston</p>
+                                    <p>@denny.hill</p>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="card">
+                            <ul class="flex">
+                                <li><img src="imgs/avaliacoes/estrela.svg" alt="Estrela de avaliação"></li>
+                                <li><img src="imgs/avaliacoes/estrela.svg" alt="Estrela de avaliação"></li>
+                                <li><img src="imgs/avaliacoes/estrela.svg" alt="Estrela de avaliação"></li>
+                                <li><img src="imgs/avaliacoes/estrela.svg" alt="Estrela de avaliação"></li>
+                                <li><img src="imgs/avaliacoes/estrela.svg" alt="Estrela de avaliação"></li>
+                            </ul>
+                            <p>"Uma experiência incrível! Os óculos de realidade virtual me transportaram para outro nível de diversão e imersão."</p>
+                            <figure class="flex">
+                                <img src="imgs/header/usuario01.png" alt="Foto de perfil de usuário que avaliou a experiência com óculos virtuais">
+                                <figcaption>
+                                    <p>Liam Moretti</p>
+                                    <p>@liam.moretti</p>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="card">
+                            <ul class="flex">
+                                <li><img src="imgs/avaliacoes/estrela.svg" alt="Estrela de avaliação"></li>
+                                <li><img src="imgs/avaliacoes/estrela.svg" alt="Estrela de avaliação"></li>
+                                <li><img src="imgs/avaliacoes/estrela.svg" alt="Estrela de avaliação"></li>
+                                <li><img src="imgs/avaliacoes/estrela.svg" alt="Estrela de avaliação"></li>
+                                <li><img src="imgs/avaliacoes/estrela.svg" alt="Estrela de avaliação"></li>
+                            </ul>
+                            <p>"Qualidade impecável e conforto surpreendente! É como entrar em um mundo totalmente novo."</p>
+                            <figure class="flex">
+                                <img src="imgs/header/usuario01.png" alt="Foto de perfil de usuário que avaliou a experiência com óculos virtuais">
+                                <figcaption>
+                                    <p>Sophia Whitaker</p>
+                                <p>@sophia.whit</p>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="card">
+                            <ul class="flex">
+                                <li><img src="imgs/avaliacoes/estrela.svg" alt="Estrela de avaliação"></li>
+                                <li><img src="imgs/avaliacoes/estrela.svg" alt="Estrela de avaliação"></li>
+                                <li><img src="imgs/avaliacoes/estrela.svg" alt="Estrela de avaliação"></li>
+                                <li><img src="imgs/avaliacoes/estrela.svg" alt="Estrela de avaliação"></li>
+                                <li><img src="imgs/avaliacoes/estrela.svg" alt="Estrela de avaliação"></li>
+                            </ul>
+                            <p>"A tecnologia é impressionante, e a sensação de imersão é indescritível. Vale cada centavo!"</p>
+                            <figure class="flex">
+                                <img src="imgs/header/usuario01.png" alt="Foto de perfil de usuário que avaliou a experiência com óculos virtuais">
+                                <figcaption>
+                                    <p>Jake Andersson</p>
+                                    <p>@jake.andersson</p>
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                    <button class="scroll-btn right">&gt;</button>
+                </div>
+            </div>
+            <div class="sobre__empresa">
+                <h2>Nossa empresa <br> valoriza a cultura <img src="imgs/avaliacoes/coracao.svg" alt="icone de coração"></h2>
+                <p>Somos especializados em criar identidades visuais para produtos e marcas da sua empresa.</p>
+                <ul class="flex">
+                    <li class="flex">
+                        <img src="imgs/avaliacoes/cultura.svg" alt="">
+                        <p>Keep it simple</p>
+                    </li>
+                    <li class="flex">
+                        <img src="imgs/avaliacoes/cultura.svg" alt="">
+                        <p>Keep it simple</p>
+                    </li>
+                    <li class="flex">
+                        <img src="imgs/avaliacoes/cultura.svg" alt="">
+                        <p>Keep it simple</p>
+                    </li>
+                    <li class="flex">
+                        <img src="imgs/avaliacoes/cultura.svg" alt="">
+                        <p>Keep it simple</p>
+                    </li>                        
+                </ul>
+            </div>
+        </section>  
+        <footer id="rodape" class="flex">
+            <div class="container__email">
+                <h2>Explore o produto de <br> uma nova maneira <img src="imgs/footer/seta.svg" alt="Icone de seta"></h2>
+                <p>Somos especializados em criar identidades visuais para produtos e marcas da sua empresa.</p>
+                <form class="flex">
+                    <input type="email" placeholder="Seu E-mail">
+                    <button class="flex">Enviar <img src="imgs/footer/seta-form.svg" alt="Icone seta enviar formulário"></button>
+                </form>
+            </div>
+            <span class="maos"></span>            
+        </footer>
+        <script src="app.js"></script>
+    </body>
+</html>
