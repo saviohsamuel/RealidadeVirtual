@@ -8,3 +8,4 @@ Velocidade e Otimização: Código limpo e otimizado para performance, priorizan
 <h2>Tecnologias utilizadas</h2>
 <p><strong>HTML</strong></p>
 <p><strong>CSS</strong></p>
+<p><strong>JAVASCRIPT</strong></p>
